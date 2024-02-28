@@ -29,11 +29,11 @@ Node<int>* solve(Node<int>* first, Node<int>* second) {
         return first;
     }
 
-    Node* curr1 = first;
-    Node* next1 = curr1 -> next;
+    Node<int>* curr1 = first;
+    Node<int>* next1 = curr1 -> next;
     
-    Node* curr2 = second;
-    Node* next2 = curr2 -> next;
+    Node<int>* curr2 = second;
+    Node<int>* next2 = curr2 -> next;
     
     while(next1 != NULL && curr2 != NULL) {
         
